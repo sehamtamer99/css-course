@@ -1,0 +1,31 @@
+/* valid */
+._user-name {
+}
+
+/* valid */
+.-user-name {
+}
+
+/* valid */
+.-user-name {
+}
+
+/* not valid as (it start with number) */
+.1user-name {
+}
+
+/* not valid as (start with special characher) */
+.@user-name {
+}
+
+/* not valid as (special character at the middle is not allowed) */
+.user@name {
+}
+
+/* valid */
+._user10name {
+}
+
+/* valid */
+.u {
+}
